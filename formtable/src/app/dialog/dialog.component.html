@@ -1,0 +1,38 @@
+
+
+
+
+<h1 mat-dialog-title>Employees form</h1>
+
+<div mat-dialog-content>
+ <form [formGroup]="productForm">
+    <mat-form-field appearance="outline">
+        <mat-label>No</mat-label>
+        <input matInput placeholder="Placeholder" formControlName="No">
+        <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+      
+    </mat-form-field>
+   <mat-form-field appearance="outline">
+        <mat-label>Name</mat-label>
+        <input matInput placeholder="Name" formControlName="Name">
+      </mat-form-field>
+
+       
+       <mat-form-field appearance="outline">
+        <mat-label>Weight</mat-label>
+        <input matInput placeholder="Weight" formControlName="Weight">
+      </mat-form-field>
+
+
+      <mat-form-field appearance="outline">
+        <mat-label>RollNo</mat-label>
+        <input matInput placeholder="RollNo" formControlName="RollNo">
+      </mat-form-field>
+    </form>
+       <div mat-dialog-action [align]="'end'" class="end">
+      <button mat-raised-button color="warn" mat-dialog-close>Close</button>
+     <button mat-raised-button color="primary" style="margin-left: 8px;" (click)="addProduct()">{{actionBtn}}</button>
+    </div>
+
+</div>
+

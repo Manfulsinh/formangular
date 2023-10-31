@@ -1,0 +1,33 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+
+
+
+
+  table {
+    width: 100%;
+  }
+
+
+
+  .mat-form-filed{
+    font-size: 14px;
+    width: 100%;
+
+  }
+
+
+
+
+  .container{
+    width: 1200px;
+    margin: 0 auto;
+  } 
+
+  mat-paginator {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center; 
+  }
+  
